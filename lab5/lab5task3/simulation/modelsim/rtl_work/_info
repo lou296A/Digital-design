@@ -1,0 +1,164 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/E2_CAS/lab5/lab5task3/simulation/modelsim
+vbin2bcd_16
+Z1 !s110 1639599532
+!i10b 1
+!s100 Kimm3:koV70`O6ikihhlK0
+Ia2ST7]CPg^;SU0_SlZK2j0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1637328745
+8C:/E2_CAS/mylib/to/bin2bcd_16.v
+FC:/E2_CAS/mylib/to/bin2bcd_16.v
+L0 14
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1639599532.000000
+!s107 C:/E2_CAS/mylib/to/bin2bcd_16.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/E2_CAS/mylib/to|C:/E2_CAS/mylib/to/bin2bcd_16.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/E2_CAS/mylib/to
+Z7 tCvgOpt 0
+vclktick_16
+R1
+!i10b 1
+!s100 nzP```RMo;MU4JPYm1S^z2
+IQ]@PobJIJ4_dD1UCOUnbm0
+R2
+R0
+w1639471534
+8C:/E2_CAS/mylib/counter/clktick_16.v
+FC:/E2_CAS/mylib/counter/clktick_16.v
+L0 5
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/E2_CAS/mylib/counter/clktick_16.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/E2_CAS/mylib/counter|C:/E2_CAS/mylib/counter/clktick_16.v|
+!i113 1
+R5
+Z8 !s92 -vlog01compat -work work +incdir+C:/E2_CAS/mylib/counter
+R7
+vhex_to_7seg
+R1
+!i10b 1
+!s100 ^X[lJU4SA=YRF^F^FLafi0
+IVTj>PklY4BIC2HJCdHhAW0
+R2
+R0
+w1636982390
+8C:/E2_CAS/mylib/to/hex_to_7seg.v
+FC:/E2_CAS/mylib/to/hex_to_7seg.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/E2_CAS/mylib/to/hex_to_7seg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/E2_CAS/mylib/to|C:/E2_CAS/mylib/to/hex_to_7seg.v|
+!i113 1
+R5
+R6
+R7
+vlab5task3
+Z9 !s110 1639599535
+!i10b 1
+!s100 ja<^fbdX[_>[nKi`64zg[2
+I]EfAE:mi8SF;U=Ln4L^h>3
+R2
+R0
+w1638539924
+8C:/E2_CAS/lab5/lab5task3/lab5task3.v
+FC:/E2_CAS/lab5/lab5task3/lab5task3.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z10 !s108 1639599535.000000
+!s107 C:/E2_CAS/lab5/lab5task3/lab5task3.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/E2_CAS/lab5/lab5task3|C:/E2_CAS/lab5/lab5task3/lab5task3.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+C:/E2_CAS/lab5/lab5task3
+R7
+vncounter
+R9
+!i10b 1
+!s100 4:0D3BzgPh<:fh@MK`i@42
+I8mkNWM<DYQXha@@B@1ZlP0
+R2
+R0
+w1638539978
+8C:/E2_CAS/mylib/counter/ncounter.v
+FC:/E2_CAS/mylib/counter/ncounter.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/E2_CAS/mylib/counter/ncounter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/E2_CAS/mylib/counter|C:/E2_CAS/mylib/counter/ncounter.v|
+!i113 1
+R5
+R8
+R7
+vpwm
+R1
+!i10b 1
+!s100 AfT>ibd9KZ5P`Q]RZgEoB2
+I>?Fm=MgVD05UU1n52Y?8;1
+R2
+R0
+w1638190439
+8C:/E2_CAS/mylib/pwm.v
+FC:/E2_CAS/mylib/pwm.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/E2_CAS/mylib/pwm.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/E2_CAS/mylib|C:/E2_CAS/mylib/pwm.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+C:/E2_CAS/mylib
+R7
+vspi2dac
+R1
+!i10b 1
+!s100 DCT8KK93lFzRJgM`@0mA01
+IZR<9oN3BM]S=io5E_`]AU2
+R2
+R0
+w1638532991
+8C:/E2_CAS/mylib/to/spi2dac.v
+FC:/E2_CAS/mylib/to/spi2dac.v
+L0 9
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/E2_CAS/mylib/to/spi2dac.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/E2_CAS/mylib/to|C:/E2_CAS/mylib/to/spi2dac.v|
+!i113 1
+R5
+R6
+R7

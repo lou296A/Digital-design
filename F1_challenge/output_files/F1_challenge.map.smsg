@@ -1,0 +1,2 @@
+Info (10281): Verilog HDL Declaration information at delay.v(12): object "time_out" differs only in case from object "TIME_OUT" in the same scope File: C:/E2_CAS/F1_challenge/delay.v Line: 12
+Warning (10268): Verilog HDL information at F1_FSM.v(43): always construct contains both blocking and non-blocking assignments File: C:/E2_CAS/F1_challenge/F1_FSM.v Line: 43

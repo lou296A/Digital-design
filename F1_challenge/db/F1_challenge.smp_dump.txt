@@ -1,0 +1,6 @@
+
+State Machine - |F1_challenge|delay:delay|state
+Name state.IDLE state.TIME_OUT state.COUNTING 
+state.IDLE 0 0 0 
+state.COUNTING 1 0 1 
+state.TIME_OUT 1 1 0 

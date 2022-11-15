@@ -1,0 +1,9 @@
+module fifo_FSM(MAX_CLK1_10, full, fifo_state); 
+input MAX_CLK1_10; 
+input full;  
+output fifo_state; 
+
+always @(posedge sysclk)
+	full <= fifo_state; 
+
+endmodule 

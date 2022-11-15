@@ -1,0 +1,18 @@
+Fitter Status : Successful - Fri Dec 10 14:46:07 2021
+Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+Revision Name : lab6task4
+Top-level Entity Name : lab6task4
+Family : MAX 10
+Device : 10M50DAF484C7G
+Timing Models : Final
+Total logic elements : 195 / 49,760 ( < 1 % )
+    Total combinational functions : 171 / 49,760 ( < 1 % )
+    Dedicated logic registers : 138 / 49,760 ( < 1 % )
+Total registers : 138
+Total pins : 36 / 360 ( 10 % )
+Total virtual pins : 0
+Total memory bits : 147,456 / 1,677,312 ( 9 % )
+Embedded Multiplier 9-bit elements : 0 / 288 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 2 ( 0 % )

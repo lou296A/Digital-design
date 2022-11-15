@@ -1,0 +1,31 @@
+
+
+	`timescale 1ns / 100ps
+
+module clktick_16(
+	clock, 
+	tick
+	); 
+	input clock;
+	output tick; 
+	reg tick;
+	reg [] count; 
+
+ output [BIT_SZ-1:0] count ; 
+ 
+ reg[BIT_SZ-1:0] count; 
+ 
+ initial count = 0; 
+	
+ always @ (posedge clock)
+	if ( count = 4999)
+		tick <= 1; 
+		count <= 0; 
+	else
+		count <= count +1; 
+		tick = 0;
+		
+	
+	
+	
+endmodule 

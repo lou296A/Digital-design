@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Wed Dec 08 14:20:21 2021
+Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+Revision Name : task2
+Top-level Entity Name : task2
+Family : MAX 10
+Total logic elements : 399
+    Total combinational functions : 377
+    Dedicated logic registers : 81
+Total registers : 81
+Total pins : 54
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

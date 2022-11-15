@@ -1,0 +1,23 @@
+module lfsr(sysclk, enable, prbs); 
+input sysclk; 
+input enable;
+output [7:1] prbs 
+  
+  output [7:1] data_out; 
+  input clk;
+  reg [14:1] sreg;
+  initial sreg7 = 7'b1;
+
+  always @(posedge clk)
+		sreg <= {sreg7[13:1],sreg[1] ^ sreg[6] ^ sreg[10] ^ sreg[14]} ;
+  
+  if enable == 1 
+		if(data_out < 14'd16000) begin 
+			assign data_out = sreg; 
+		end 
+		else assign data_out = 16000; 
+
+  else data_out = 500; 
+endmodule	
+
+

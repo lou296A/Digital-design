@@ -1,0 +1,29 @@
+module delay(sysclk, trigger, N, time_out ); 
+input sysclk; 
+input trigger;  
+input N; 
+output time_out; 
+reg [13:0] count; 
+wire [13:0] random_delay; 
+
+
+if (N > 16 )
+N = 16;
+end 
+
+always @ (posedge sysclk)
+if(N == 0);
+	if(count < 499)
+	count <= count + 1; 
+	else 
+	time_out = 1; 
+	count = 0; 
+else
+  if count < N; 
+  count = count + 1 
+  else 
+  random <= 0
+	
+
+
+

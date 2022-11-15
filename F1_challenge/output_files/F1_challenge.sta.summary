@@ -1,0 +1,149 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clktick_16:clk_ms|tick'
+Slack : -3.656
+TNS   : -10.306
+
+Type  : Slow 1200mV 85C Model Setup 'MAX10_CLK1_50'
+Slack : -2.441
+TNS   : -63.529
+
+Type  : Slow 1200mV 85C Model Setup 'F1_FSM:fsm|state[1]'
+Slack : -2.127
+TNS   : -11.388
+
+Type  : Slow 1200mV 85C Model Setup 'F1_FSM:fsm|en_lfsr'
+Slack : -0.308
+TNS   : -3.050
+
+Type  : Slow 1200mV 85C Model Hold 'clktick_16:clk_ms|tick'
+Slack : 0.348
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'F1_FSM:fsm|en_lfsr'
+Slack : 0.561
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'MAX10_CLK1_50'
+Slack : 0.646
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'F1_FSM:fsm|state[1]'
+Slack : 1.021
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'MAX10_CLK1_50'
+Slack : -3.000
+TNS   : -50.702
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clktick_16:clk_ms|tick'
+Slack : -1.403
+TNS   : -23.851
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'F1_FSM:fsm|en_lfsr'
+Slack : -1.403
+TNS   : -19.642
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'F1_FSM:fsm|state[1]'
+Slack : 0.415
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'clktick_16:clk_ms|tick'
+Slack : -3.284
+TNS   : -8.863
+
+Type  : Slow 1200mV 0C Model Setup 'MAX10_CLK1_50'
+Slack : -2.185
+TNS   : -54.988
+
+Type  : Slow 1200mV 0C Model Setup 'F1_FSM:fsm|state[1]'
+Slack : -1.906
+TNS   : -10.322
+
+Type  : Slow 1200mV 0C Model Setup 'F1_FSM:fsm|en_lfsr'
+Slack : -0.192
+TNS   : -1.528
+
+Type  : Slow 1200mV 0C Model Hold 'clktick_16:clk_ms|tick'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'F1_FSM:fsm|en_lfsr'
+Slack : 0.505
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'MAX10_CLK1_50'
+Slack : 0.598
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'F1_FSM:fsm|state[1]'
+Slack : 0.946
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'MAX10_CLK1_50'
+Slack : -3.000
+TNS   : -50.702
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clktick_16:clk_ms|tick'
+Slack : -1.403
+TNS   : -23.851
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'F1_FSM:fsm|en_lfsr'
+Slack : -1.403
+TNS   : -19.642
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'F1_FSM:fsm|state[1]'
+Slack : 0.430
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'clktick_16:clk_ms|tick'
+Slack : -1.192
+TNS   : -2.725
+
+Type  : Fast 1200mV 0C Model Setup 'F1_FSM:fsm|state[1]'
+Slack : -0.746
+TNS   : -2.430
+
+Type  : Fast 1200mV 0C Model Setup 'MAX10_CLK1_50'
+Slack : -0.582
+TNS   : -11.859
+
+Type  : Fast 1200mV 0C Model Setup 'F1_FSM:fsm|en_lfsr'
+Slack : 0.421
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clktick_16:clk_ms|tick'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'F1_FSM:fsm|en_lfsr'
+Slack : 0.208
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'MAX10_CLK1_50'
+Slack : 0.251
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'F1_FSM:fsm|state[1]'
+Slack : 0.318
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'MAX10_CLK1_50'
+Slack : -3.000
+TNS   : -42.770
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clktick_16:clk_ms|tick'
+Slack : -1.000
+TNS   : -17.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'F1_FSM:fsm|en_lfsr'
+Slack : -1.000
+TNS   : -14.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'F1_FSM:fsm|state[1]'
+Slack : 0.389
+TNS   : 0.000
+
+------------------------------------------------------------

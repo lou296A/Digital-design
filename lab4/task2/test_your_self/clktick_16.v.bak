@@ -1,0 +1,27 @@
+	
+
+`timescale 1ns / 100ps
+
+module clktick_16(
+	clock, 
+	tick
+	); 
+	input clock;
+	output tick; 
+	reg tick;
+	reg [15:0] count; 
+ 
+
+	initial count = 0; 
+	always @ (posedge clock)
+	if ( count <= 49999)
+		tick <= 1; 
+		count <= 0; 
+	else
+		count <= count +1; 
+		tick <= 0;
+	
+	
+	
+	
+endmodule 

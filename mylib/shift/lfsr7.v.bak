@@ -1,0 +1,9 @@
+module lfsr7(data_out, clk);
+  output data_out; 
+  input clk;
+  reg [6:0] sreg;
+  initial sreg = 7'b1;
+always @(posedge clk)
+     sreg <= (sreg[6:1],sreg[3]^sreg[7]);
+   assign data_out = sreg; 
+endmodule

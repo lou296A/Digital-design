@@ -1,0 +1,55 @@
+# Reading C:/intelFPGA_lite/18.0/modelsim_ase/tcl/vsim/pref.tcl
+# do lab4task1_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/E2_CAS/lab3/task2 {C:/E2_CAS/lab3/task2/hex_to_7seg.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:21:17 on Dec 15,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/E2_CAS/lab3/task2" C:/E2_CAS/lab3/task2/hex_to_7seg.v 
+# -- Compiling module hex_to_7seg
+# 
+# Top level modules:
+# 	hex_to_7seg
+# End time: 20:21:17 on Dec 15,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/E2_CAS/lab4/task1 {C:/E2_CAS/lab4/task1/counter_4.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:21:17 on Dec 15,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/E2_CAS/lab4/task1" C:/E2_CAS/lab4/task1/counter_4.v 
+# -- Compiling module counter_4
+# 
+# Top level modules:
+# 	counter_4
+# End time: 20:21:17 on Dec 15,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/E2_CAS/lab4/task1 {C:/E2_CAS/lab4/task1/lab4task1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:21:17 on Dec 15,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/E2_CAS/lab4/task1" C:/E2_CAS/lab4/task1/lab4task1.v 
+# -- Compiling module lab4task1
+# 
+# Top level modules:
+# 	lab4task1
+# End time: 20:21:17 on Dec 15,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.counter_4
+# vsim work.counter_4 
+# Start time: 20:21:21 on Dec 15,2021
+# Loading work.counter_4
+do tb_counter.do
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: loual  Hostname: DESKTOP-M9G24Q9  ProcessID: 12228
+#           Attempting to use alternate WLF file "./wlft59c96m".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft59c96m
+# End time: 12:59:48 on Dec 16,2021, Elapsed time: 16:38:27
+# Errors: 0, Warnings: 2
