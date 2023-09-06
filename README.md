@@ -1,3 +1,4 @@
+# Analog and Digital Design (year 2 - autumn 2021)
 This repo is the result of module coursework on analog and  digital circuits, computer architecture, and programming, in which the learning purpose were  to  analyse and design electronic circuits with a system level perspective.
 
 The aim of this coursework was to provide theoretical foundations on design techniques and hands-on experiences of acquiring physical analog signals, pre-processing them, converting them into digital form, then processing these in digital programmable hardware on a Field Programmable Gate Array (FPGA). Emphasis was made on the non-ideal electronic hardware, which confronts us to overcome practical challenges such as noisy signal processing. 
